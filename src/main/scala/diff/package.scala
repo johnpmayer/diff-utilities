@@ -10,5 +10,6 @@ package object diff {
   }
 
   implicit val modifiedCount: ModifiedCount.type = ModifiedCount
+  implicit val diffStats: DiffStats.type = DiffStats
 
 }
