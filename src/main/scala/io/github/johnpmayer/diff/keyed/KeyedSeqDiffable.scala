@@ -1,7 +1,7 @@
-package diff.keyed
+package io.github.johnpmayer.diff.keyed
 
-import diff.keyed.KeyedSeqElementDiff.{Added, Changed, Moved, Removed}
-import diff.{Diff, Diffable}
+import io.github.johnpmayer.diff.keyed.KeyedSeqElementDiff.{Added, Changed, Moved, Removed}
+import io.github.johnpmayer.diff.{Diff, Diffable}
 
 import scala.annotation.tailrec
 

@@ -1,5 +1,8 @@
-import diff.keyed.{Keyed, KeyedSeqDiffable}
-import diff.map.MapDiffable
+
+package io.github.johnpmayer
+
+import io.github.johnpmayer.diff.keyed.{Keyed, KeyedSeqDiffable}
+import io.github.johnpmayer.diff.map.MapDiffable
 
 import scalaz.Monoid
 import scalaz.syntax.semigroup._

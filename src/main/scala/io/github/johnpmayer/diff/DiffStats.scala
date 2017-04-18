@@ -1,4 +1,4 @@
-package diff
+package io.github.johnpmayer.diff
 
 import scalaz.Monoid
 

@@ -1,6 +1,6 @@
-package diff.keyed
+package io.github.johnpmayer.diff.keyed
 
-import diff.Diff
+import io.github.johnpmayer.diff.Diff
 
 trait KeyedSeqElementDiff[+T]
 

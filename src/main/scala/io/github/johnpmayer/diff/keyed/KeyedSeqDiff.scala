@@ -1,6 +1,6 @@
-package diff.keyed
+package io.github.johnpmayer.diff.keyed
 
-import diff.{Diff, DiffStats}
+import io.github.johnpmayer.diff.{Diff, DiffStats}
 
 case class KeyedSeqDiff[K <: Ordered[K], E <: Keyed[K], C <: Seq[E]](changes: Seq[(K, KeyedSeqElementDiff[E])]) extends Diff[C] {
   override def stats: DiffStats = ???

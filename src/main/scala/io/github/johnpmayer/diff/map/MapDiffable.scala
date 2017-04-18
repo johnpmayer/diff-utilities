@@ -1,7 +1,7 @@
-package diff.map
+package io.github.johnpmayer.diff.map
 
-import diff.map.MapElementDiff.{Added, Changed, Removed}
-import diff.{Diff, Diffable}
+import io.github.johnpmayer.diff.map.MapElementDiff.{Added, Changed, Removed}
+import io.github.johnpmayer.diff.{Diff, Diffable}
 
 import scala.annotation.tailrec
 

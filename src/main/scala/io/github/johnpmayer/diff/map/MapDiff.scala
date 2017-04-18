@@ -1,6 +1,6 @@
-package diff.map
+package io.github.johnpmayer.diff.map
 
-import diff.{Diff, DiffStats}
+import io.github.johnpmayer.diff.{Diff, DiffStats}
 
 case class MapDiff[K <: Ordered[K], E, C <: Map[K, E]](changes: Seq[(K, MapElementDiff[E])]) extends Diff[C] {
   override def stats: DiffStats = ???

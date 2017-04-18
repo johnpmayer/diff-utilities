@@ -1,6 +1,6 @@
-package diff.map
+package io.github.johnpmayer.diff.map
 
-import diff.Diff
+import io.github.johnpmayer.diff.Diff
 
 trait MapElementDiff[+T]
 

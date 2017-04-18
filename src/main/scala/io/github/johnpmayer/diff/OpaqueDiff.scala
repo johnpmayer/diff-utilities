@@ -1,4 +1,4 @@
-package diff
+package io.github.johnpmayer.diff
 
 trait OpaqueDiff[T] extends Diff[T]
 
